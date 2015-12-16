@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/maintext"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/mainImage"
+        android:src="@drawable/splash_image_new"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/overallExpander"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/overall"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/expandable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFF"
+        android:orientation="vertical" >
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pricesOverview"
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:padding="5dp">
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/blankHeading"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/maxHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/max"/>
+                <TextView
+                    android:id="@+id/avgHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/avg"/>
+                <TextView
+                    android:id="@+id/minHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/min"/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/unleadedHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unleaded"/>
+                <TextView
+                    android:id="@+id/unleadedMax"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/unleadedAvg"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/unleadedMin"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/superUnleadedHeading"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/superUnleadedMax"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/superUnleadedAvg"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/superUnleadedMin"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/dieselHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/diesel"/>
+                <TextView
+                    android:id="@+id/dieselMax"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/dieselAvg"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/dieselMin"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/premiumDieselHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/premiumDiesel"/>
+                <TextView
+                    android:id="@+id/premiumDieselMax"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/premiumDieselAvg"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/premiumDieselMin"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/lpgHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lpg"/>
+                <TextView
+                    android:id="@+id/lpgMax"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/lpgAvg"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/lpgMin"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/lrpHeading"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lrp"/>
+                <TextView
+                    android:id="@+id/lrpMax"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/lrpAvg"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/lrpMin"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/E:/navDrawerWorking/app/src/main/res/layout/main_activity_content.xml -->

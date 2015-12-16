@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MUC Coursework</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="maintext">Welcome to my application, Enjoy!</string>
+
+    <string name="navHome">Home</string>
+    <string name="navFindPetrol">Find Petrol</string>
+    <string name="navPriceComp">Prices Comparison</string>
+    <string name="navUserPrefs">User Preferences</string>
+    <string name="navAbout">About</string>
+
+    <string name="pref_contrast">Activate High Contrast Mode</string>
+    <string name="pref_contrast_desc">For those with accessibility issues</string>
+
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Update Settings</string>
+
+    <string name="navHeaderEmail">dmcghe200@caledonian.ac.uk</string>
+    <string name="navHeaderName">Petrol App</string>
+
+    <string name="splashCreated">Created by Darren McGhee</string>
+    <string name="splashMatric">S1228158</string>
+    <string name="splashAppName">MUC Coursework App</string>
+
+    <string name="overall">Click me to see prices!</string>
+
+    <string name="contrast">Activate high contrast mode</string>
+
+    <string name="lpg">LPG</string>
+    <string name="lrp">LRP</string>
+    <string name="unleaded">Unleaded</string>
+    <string name="superUnleaded">Super Unleaded</string>
+    <string name="diesel">Diesel</string>
+    <string name="premiumDiesel">Premium Diesel</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="avg">Avg</string>
+
+    <string name="aboutDesc1">This application has been created to display the prices of petrol in the UK. The home page of the application displays the highest, lowest and average price of petrol across the entire UK.  There is also a search bar that allows the user to enter their location or a location of their choice to get a more defined result.
+        There is also other features available to the user, this includes looking at google maps to get the location of nearby petrol stations, view a graph that compares the prices of each type of fuel over a certain time period, and also user preferences for the app.</string>
+</resources>
