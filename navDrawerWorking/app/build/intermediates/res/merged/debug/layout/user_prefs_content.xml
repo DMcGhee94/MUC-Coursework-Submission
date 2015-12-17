@@ -12,4 +12,4 @@
     tools:showIn="@layout/user_prefs_app_bar"
     tools:context=".UserPreferences">
 </RelativeLayout>
-<!-- From: file:/C:/Users/darre/Desktop/navDrawerWorking/app/src/main/res/layout/user_prefs_content.xml -->
+<!-- From: file:/E:/navDrawerWorking/app/src/main/res/layout/user_prefs_content.xml -->

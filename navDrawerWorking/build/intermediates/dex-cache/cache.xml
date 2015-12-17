@@ -2,46 +2,67 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-251b8677b2cc5fe4efb9e278c553e9fa09e50cdc.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-f2ddabaaeb2a440b4606003eb6e0737798320a17.jar" />
     </item>
     <item
-        jar="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-f38c04590571893394d12389d515a28342340805.jar" />
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-cbfa4f06f823cd10cf8b59d01a7e8a0ae4aed229.jar" />
     </item>
     <item
-        jar="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-6c9cee5ccf646c1658c9af9f43dc005417680fa3.jar" />
-    </item>
-    <item
-        jar="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-029b19dab17d3f0b2f4b9c9ee780b01bbd828855.jar" />
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-d68bb3e431173da8428789bb589ed21968a2d6ea.jar" />
+    </item>
+    <item
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-e12f40c6a0f851e5cd0fbf37fde3c26d29703b71.jar" />
+    </item>
+    <item
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-421cb3767dcb13609d92cec4f8b495181907c5d0.jar" />
+    </item>
+    <item
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-88b1801980bcf4e8222042701f04d4dfeeb6f8ef.jar" />
+    </item>
+    <item
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-a2ebc4064326b9d3b4bc484302d4ef04f32574ae.jar" />
+    </item>
+    <item
+        jar="E:\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-3fc82548842b601b076c95fbcdb098f535e63a9b.jar" />
     </item>
     <item
         jar="C:\Users\darre\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-a8ac5a3647434d1d685655fd42768a7671b5bcff.jar" />
-    </item>
-    <item
-        jar="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\darre\Desktop\navDrawerWorking\app\build\intermediates\pre-dexed\debug\classes-db73cd398565ae7610c4766ce0562c50355a6e84.jar" />
+        <dex dex="E:\navDrawerWorking\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-a8ac5a3647434d1d685655fd42768a7671b5bcff.jar" />
     </item>
 
 </items>

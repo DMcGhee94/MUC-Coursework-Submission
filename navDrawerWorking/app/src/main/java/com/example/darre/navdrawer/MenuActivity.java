@@ -1,5 +1,9 @@
 package com.example.darre.navdrawer;
 
+/**
+ * Created by Darren McGhee
+ */
+
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -27,27 +31,19 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
+        if (id == R.id.nav_home) {//if "nav_home" is clicked, load the "MainActivity" class
             startActivity(new Intent(this, MainActivity.class));
         }
 
-        else if (id == R.id.nav_overall) {
-            startActivity(new Intent(this, OverallActivity.class));
-        }
-
-        else if (id == R.id.nav_findPetrol) {
+        else if (id == R.id.nav_findPetrol) {//if "nav_findPetrol" is clicked, load the "FindPetrol" class
             startActivity(new Intent(this, FindPetrol.class));
         }
 
-        else if (id == R.id.nav_priceComp) {
-            startActivity(new Intent(this, PriceComparison.class));
-        }
-
-        else if (id == R.id.nav_userPrefs) {
+        else if (id == R.id.nav_userPrefs) { //if "nav_userPrefs" is clicked, load the "UserPreferences" class
             startActivity(new Intent(this, UserPreferences.class));
         }
 
-        else if (id == R.id.nav_about) {
+        else if (id == R.id.nav_about) { //if "nav_about" is clicked, display an alert dialog with the information below
             new AlertDialog.Builder(this)
                     .setTitle("About")
                     .setMessage("This application has been created to display the prices of petrol in the UK. The home page of the application displays the highest, lowest and average price of petrol across the entire UK.  There is also a search bar that allows the user to enter their location or a location of their choice to get a more defined result.\n" +
